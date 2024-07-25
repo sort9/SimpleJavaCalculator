@@ -29,6 +29,12 @@ public class calculator {
             case 2:
                 subtract(num1, num2);
                 break;
+            case 3:
+                multiply(num1, num2);
+                break;
+            case 4:
+                divide(num1, num2);
+                break;
         }
     }
     
@@ -50,7 +56,7 @@ public class calculator {
         System.out.print(result);
     }
     
-    public static void Divide(double x, double y) {
+    public static void divide(double x, double y) {
         result = x / y;
         System.out.print("Answer: ");
         System.out.print(result);
